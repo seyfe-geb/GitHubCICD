@@ -11,7 +11,7 @@ public class GitHubCicdApplication {
 
 	@GetMapping("/greeting")
 	public String welcome(){
-		return "Welcome to Seyfe's";
+		return "Welcome to Seyfe's docker";
 	}
 
 	public static void main(String[] args) {
